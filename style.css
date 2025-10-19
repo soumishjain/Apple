@@ -1,0 +1,229 @@
+@font-face {
+    font-family: nav;
+    src: url(./HelveticaNeueLight.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#nav{
+    z-index: 2;
+    opacity: 0.7;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    height: 40px;
+    color: rgb(181, 180, 180);
+    font-family: nav;
+    font-weight: 100;
+}
+
+#nav h4{
+    font-size: 13px;
+}
+#nav2{
+    z-index: 1;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    background-color: #222;
+    color: rgb(216, 216, 216);
+    font-family: nav;
+    font-size: 14px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#nav2 a{
+    text-decoration: none;
+    color: royalblue;
+}
+#mac{
+    width: 100%;
+    height: 90%;
+    background-image: url(https://www.apple.com/v/home/ci/images/heroes/macbook-pro-m5/hero_macbook_pro_m5_announce__i8r7suk8moqe_largetall_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 110px;
+    /* justify-content: center; */
+    flex-direction: column;
+    font-family: nav;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+h4{
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+h6{
+    margin-top: 10px;
+    color: #5a5959;
+    font-size: 18px;
+    font-weight: 100;
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+button{
+    background-color: royalblue;
+    border: none;
+    font-size: 20px;
+    border-radius: 50px;
+    padding: 10px;
+    width: 140px;
+    color: white;
+    font-family: nav;
+    font-size: 18px;
+}
+.button2{
+    background-color: transparent;
+    border: 1px solid royalblue;
+    color: royalblue;
+    width: 120px;
+}
+.button2:hover{
+    background-color: royalblue;
+    color: white;
+    transition: 0.2sec;
+}
+#ipad{
+    margin-top: 10px;
+    width: 100%;
+    height: 85%;
+    background-image: url(https://www.apple.com/v/home/ci/images/heroes/ipad-pro/hero_ipad_pro_announce__v858qt6nn4im_largetall_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    /* justify-content: center; */
+    flex-direction: column;
+    font-family: nav;
+}
+#ipad h1{
+    font-size: 50px;
+}
+#iphone{
+    margin-top: 10px;
+    width: 100%;
+    height: 85%;
+    background-image: url(https://www.apple.com/v/home/ci/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_largetall_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    /* justify-content: center; */
+    flex-direction: column;
+    font-family: nav;   
+}
+#b1{
+    width: 50%;
+    height: 700px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-image: url(https://www.apple.com/in/home/promos/diwali-2025/images/diwali25_promo_large_2x.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 130px;
+}
+.text{
+    width: 400px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.text h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
+.text p{
+    font-size: 20px;
+    font-family: nav;
+}
+#b1 button{
+    margin-top: 20px;
+    background: transparent;
+    border: 1px solid royalblue;
+    color: royalblue;
+    width: 70px;
+    font-size: 15px;
+}
+#b1 button:hover{
+    color: white;
+    background: royalblue;
+    transition: 0.1sec;
+}
+.box{
+    display: flex;
+}
+#b2{
+    width: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-image: url(https://www.apple.com/v/home/ci/images/promos/iphone-air/promo_iphone_air__gesd0y6oqxym_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 700px;
+    position: relative;
+}
+#b2inner{
+    position: absolute;
+    bottom: 500px;
+    text-align: center;
+}
+#b2inner h1{
+    font-family: nav;
+    font-weight: 600;
+    font-size: 50px;
+}
+#b2 h6{
+    color: black;
+    font-size: 25px;
+    font-family: nav;
+}
+#b2 button{
+    width: 120px;
+    position: absolute;
+    left: 50px;
+}
+#b2 .button2{
+    width: 80px;
+    left: 200px;
+}
