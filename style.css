@@ -15,14 +15,14 @@ html, body {
 
 #nav{
     z-index: 2;
-    opacity: 0.98;
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 40px;
     width: 100%;
-    background-color: rgb(24, 24, 24);
+    backdrop-filter: blur(10px);
+    background-color: rgba(77, 77, 77, 0.764);
     height: 40px;
     color: rgb(181, 180, 180);
     font-family: nav;
@@ -319,3 +319,66 @@ button{
 #b3 button:hover,#b4 button:hover,#b5 button:hover,#b6 button:hover,#b2 button:hover{
     background-color: rgb(69, 111, 236);
 }
+
+#endmain{
+    background-color: #f5f5f5;
+    margin-top: 10px;
+    padding-top: 20px ;
+    display: flex;
+    
+    flex-direction: column;
+}
+#endmain p{
+    margin-left: 270px;
+    font-size: 13px;
+    font-weight: 100;
+    color: #5f5e5e;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul{
+    list-style: none;
+    font-family: nav;
+    font-size: 12px;
+    margin-left: 20px;
+    padding-bottom: 50px;
+}
+li{
+    margin-bottom: 10px;
+    color: #5f5e5e;
+}
+h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+#list{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 270px;
+    width: 70%;
+    gap: 100px;
+    border-top: 2px solid rgb(215, 215, 215);
+    padding-top: 30px;
+}
+
+#endmain a{
+    text-decoration: none;
+    color: royalblue;
+}
+#footer{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding-top: 15px;
+}
+#footer p{
+    margin-left: 270px;
+    padding-bottom: 10px;
+    font-family: nav;
+    font-size: 15px;
+    color: grey;
+    margin-right: 270px;
+    border-top: 2px solid rgb(215, 215, 215);
+    padding-top: 10px;
+}
+
